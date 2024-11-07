@@ -16,3 +16,11 @@ def add_reminder(description, due_date):
         reminders = cursor.fetchall()
         conn.close()
         return reminders
+
+    # Delete a reminder by ID
+    def delete_reminder(reminder_id):
+        conn = create_connection()
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM reminders WHERE id = ?", (reminder_id,))
+        conn.commit()
+        conn.close()

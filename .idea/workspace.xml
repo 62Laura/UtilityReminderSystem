@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8944163-4bc1-48ab-9ad9-263bd6688847" name="Changes" comment="" />
+    <list default="true" id="a8944163-4bc1-48ab-9ad9-263bd6688847" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/reminder.py" beforeDir="false" afterPath="$PROJECT_DIR$/reminder.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -44,6 +51,7 @@
   "keyToString": {
     "Python.reminder.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "ft-rmndr",
     "last_opened_file_path": "C:/Users/USER/PycharmProjects/UtilityReminderSystem",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
