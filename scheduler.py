@@ -1,15 +1,18 @@
 import time
 import threading
-from reminder import view_reminders
+from reminder import Reminder
 from datetime import datetime
 
-# Check reminders everyday
-def reminder_scheduler():
-    while True:
-        reminders = view_reminders()
-        now = datetime.now().strftime("%Y-%m-%d %H:%M")
-        for reminder in reminders:
-            reminder_id, description, due_date = reminder
-            if due_date == now:
-                print(f"Reminder Alert! {description} is due today.")
-        time.sleep(86400)
+class ReminderScheduler:
+    def _init_(self):
+        self.reminder_class = Reminder  # Reference to the Reminder class
+
+    def reminder_scheduler(self):
+        while True:
+            reminders = self.reminder_class.view_reminders()
+            now = datetime.now().strftime("%Y-%m-%d %H:%M")
+            for reminder in reminders:
+                reminder_id, description, due_date = reminder
+                if due_date == now:
+                    print(f"Reminder Alert! '{description}' is due today at {due_date}.")
+        time.sleep(60)
