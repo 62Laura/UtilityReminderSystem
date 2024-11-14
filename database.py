@@ -8,14 +8,14 @@ class Database:
     def create_connection(self):
         return sqlite3.connect(self.db_name)
       
-#initializing the database
-def initialize_db():
-    conn = create_connection()
-    cursor = conn.cursor()
-    cursor.execute('''CREATE TABLE IF NOT EXISTS reminders (
-                        id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        description TEXT,
-                        due_date TEXT)''')
-    conn.commit()
-    conn.close()
-
+# Initialize the database with a reminders table
+    def initialize_db(self):
+        conn = self.create_connection()
+        cursor = conn.cursor()
+        cursor.execute('''CREATE TABLE IF NOT EXISTS reminders (
+                            id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            description TEXT,
+                            due_date TEXT
+                          )''')
+        conn.commit()
+        conn.close()
