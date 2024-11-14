@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8944163-4bc1-48ab-9ad9-263bd6688847" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/reminder.py" beforeDir="false" afterPath="$PROJECT_DIR$/reminder.py" afterDir="false" />
-    </list>
+    <list default="true" id="a8944163-4bc1-48ab-9ad9-263bd6688847" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +31,12 @@
     &quot;assignee&quot;: &quot;Manzi453&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/62Laura/UtilityReminderSystem&quot;,
-    &quot;accountId&quot;: &quot;e16ca50d-3b8d-4d3f-85fd-3619b00a856f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/62Laura/UtilityReminderSystem.git",
+    "accountId": "244edad7-fcf7-4599-9044-7515d33b6ba8"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -51,7 +49,7 @@
   "keyToString": {
     "Python.reminder.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ft-rmndr",
+    "git-widget-placeholder": "ft-SINGIZWA",
     "last_opened_file_path": "C:/Users/USER/PycharmProjects/UtilityReminderSystem",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,6 +77,7 @@
       <updated>1730981631544</updated>
       <workItem from="1730981633819" duration="637000" />
       <workItem from="1730982372251" duration="232000" />
+      <workItem from="1731579656446" duration="284000" />
     </task>
     <servers />
   </component>
