@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8944163-4bc1-48ab-9ad9-263bd6688847" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-    </list>
+    <list default="true" id="a8944163-4bc1-48ab-9ad9-263bd6688847" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +50,7 @@
     "Python.database.executor": "Run",
     "Python.reminder.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ft-reminderM",
+    "git-widget-placeholder": "ft-SINGIZWA",
     "last_opened_file_path": "C:/Users/USER/PycharmProjects/UtilityReminderSystem",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
