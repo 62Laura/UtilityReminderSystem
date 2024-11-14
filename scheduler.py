@@ -15,4 +15,9 @@ class ReminderScheduler:
                 reminder_id, description, due_date = reminder
                 if due_date == now:
                     print(f"Reminder Alert! '{description}' is due today at {due_date}.")
-        time.sleep(60)
+            time.sleep(60)
+
+            def start_scheduler(self):
+                thread = threading.Thread(target=self.reminder_scheduler)
+                thread.daemon = True
+                thread.start()
