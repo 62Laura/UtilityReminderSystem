@@ -25,3 +25,8 @@ def display_menu():
                 reminder = Reminder(description, due_date)
                 reminder.add_reminder()
                 print("Reminder added successfully!")
+
+                elif choice == '2':
+                reminders = Reminder.view_reminders()
+                for reminder in reminders:
+                    print(f"ID: {reminder[0]}, Description: {reminder[1]}, Due Date: {reminder[2]}")
