@@ -1,10 +1,13 @@
 import sqlite3
 
-# Connect to the SQLite database
-def create_connection():
-    conn = sqlite3.connect("reminder_management.db")
-    return conn
-
+class Database:
+    def __init__(self, db_name="reminder_management.db"):
+        self.db_name = db_name
+        
+    # Connect to the SQLite database
+    def create_connection(self):
+        return sqlite3.connect(self.db_name)
+      
 #initializing the database
 def initialize_db():
     conn = create_connection()
@@ -15,3 +18,4 @@ def initialize_db():
                         due_date TEXT)''')
     conn.commit()
     conn.close()
+
