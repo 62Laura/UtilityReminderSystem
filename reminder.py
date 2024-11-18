@@ -20,7 +20,8 @@ class Reminder:
     # View all reminders
     @classmethod
     def view_reminders(cls):
-        conn = cls.db.create_connection()
+        db = Database()  # Create a Database object
+        conn = db.create_connection()
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM reminders")
         reminders = cursor.fetchall()
