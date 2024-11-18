@@ -3,7 +3,7 @@
 from database import Database
 
 class Reminder:
-    def _init_(self, description, due_date, reminder_id=None):
+    def __init__(self, description, due_date, reminder_id=None):
         self.description = description
         self.due_date = due_date
         self.reminder_id = reminder_id
@@ -20,7 +20,8 @@ class Reminder:
     # View all reminders
     @classmethod
     def view_reminders(cls):
-        conn = cls.db.create_connection()
+        db = Database()  # Create a Database object
+        conn = db.create_connection()
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM reminders")
         reminders = cursor.fetchall()
