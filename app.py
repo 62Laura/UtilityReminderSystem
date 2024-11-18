@@ -38,3 +38,18 @@ def display_menu():
             reminder = Reminder(new_description, new_due_date, reminder_id)
             reminder.update_reminder(new_description, new_due_date)
             print("Reminder updated successfully!")
+elif choice == '4':
+            reminder_id = int(input("Enter reminder ID to delete: "))
+            reminder = Reminder("", "", reminder_id)
+            reminder.delete_reminder()
+            print("Reminder deleted successfully!")
+
+        elif choice == '5':
+            print("Exiting the application.")
+            break
+
+        else:
+            print("Invalid choice. Please try again.")
+
+if _name_ == "_main_":
+    main()
