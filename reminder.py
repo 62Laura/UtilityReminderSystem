@@ -3,7 +3,7 @@
 from database import Database
 
 class Reminder:
-    def _init_(self, description, due_date, reminder_id=None):
+    def __init__(self, description, due_date, reminder_id=None):
         self.description = description
         self.due_date = due_date
         self.reminder_id = reminder_id

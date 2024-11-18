@@ -30,8 +30,12 @@ def main():
 
         elif choice == '2':  # View all reminders
             reminders = Reminder.view_reminders()
-            for reminder in reminders:
-                print(f"ID: {reminder[0]}, Description: {reminder[1]}, Due Date: {reminder[2]}")
+            if reminders:  # Check if reminders exist
+                for reminder in reminders:
+                    print(f"ID: {reminder[0]}, Description: {reminder[1]}, Due Date: {reminder[2]}")
+            else:
+                print("No reminders found.")
+
 
         elif choice == '3':  # Update a reminder
             reminder_id = int(input("Enter reminder ID to update: "))
